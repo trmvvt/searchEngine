@@ -1,0 +1,2148 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":5428,
+    "params":{
+      "facet":"true",
+      "fl":"location2,jobtype",
+      "indent":"true",
+      "q":"*:*",
+      "wt":"json",
+      "facet.pivot":"location2,jobtype"}},
+  "response":{"numFound":11987,"start":0,"docs":[
+      {
+        "jobtype":"Tiempo Completo",
+        "location2":"Buenos Aires, Argentina"},
+      {},
+      {
+        "location2":"El Talar, Buenos Aires, Argentina",
+        "jobtype":"Tiempo Completo"},
+      {
+        "location2":"Buenos Aires, Argentina",
+        "jobtype":"Tiempo Completo"},
+      {
+        "location2":"Confitería del Molino, Capital Federal, Argentina - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+        "jobtype":"Por Horas"},
+      {
+        "location2":"Buenos Aires, Argentina",
+        "jobtype":"Tiempo Completo"},
+      {
+        "location2":"Córdoba, Argentina",
+        "jobtype":"Tiempo Completo"},
+      {
+        "location2":"Rosario, Santa Fe, Argentina",
+        "jobtype":"Tiempo Completo"},
+      {
+        "location2":"Campaña, Buenos Aires, Argentina",
+        "jobtype":"Tiempo Completo"},
+      {
+        "location2":"Recoleta - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+        "jobtype":"Medio Tiempo, Por Horas"}]
+  },
+  "facet_counts":{
+    "facet_queries":{},
+    "facet_fields":{},
+    "facet_dates":{},
+    "facet_ranges":{},
+    "facet_intervals":{},
+    "facet_pivot":{
+      "location2,jobtype":[{
+          "field":"location2",
+          "value":"Buenos Aires, Argentina",
+          "count":3630,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":3240},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":145},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":93},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":31},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":18},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":18},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":16},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":16},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":12},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Temporal",
+              "count":6},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Beca/PrÃ¡cticas",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Beca/PrÃ¡cticas, Desde Casa",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Beca/PrÃ¡cticas",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Desde Casa",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Desde Casa",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Desde Casa",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Desde Casa",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Beca/PrÃ¡cticas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Beca/PrÃ¡cticas, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Beca/PrÃ¡cticas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Beca/PrÃ¡cticas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"buenos",
+          "count":1451,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":2514},
+            {
+              "field":"jobtype",
+              "value":"por",
+              "count":36},
+            {
+              "field":"jobtype",
+              "value":"temporal",
+              "count":10},
+            {
+              "field":"jobtype",
+              "value":"desde",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"prã",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Córdoba, Argentina",
+          "count":373,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":315},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":18},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":11},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Desde Casa",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Beca/PrÃ¡cticas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas, Temporal, Beca/PrÃ¡cticas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Beca/PrÃ¡cticas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal, Desde Casa",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Rosario, Santa Fe, Argentina",
+          "count":157,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":131},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":7},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":6},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Beca/PrÃ¡cticas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Desde Casa",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Beca/PrÃ¡cticas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas, Beca/PrÃ¡cticas, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas, Desde Casa",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Norte, Berisso, Buenos Aires, Argentina",
+          "count":149,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":133},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":7},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Martínez, Buenos Aires, Argentina",
+          "count":122,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":105},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":14},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Barracas - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":113,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":111},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"san",
+          "count":112,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":167},
+            {
+              "field":"jobtype",
+              "value":"por",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"desde",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Pilar, Buenos Aires, Argentina",
+          "count":110,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":98},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Palermo - Buenos Aires, Argentina",
+          "count":104,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":82},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":13},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Desde Casa",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Museo de Arte Latinoamericano de Buenos Aires - Av Pres. Figueroa Alcorta 3415, C1425CLA Buenos Aires, Argentina",
+          "count":102,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":91},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"córdoba",
+          "count":102,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":109},
+            {
+              "field":"jobtype",
+              "value":"por",
+              "count":3}]},
+        {
+          "field":"location2",
+          "value":"Capital Federal, San Fernando del Valle de Catamarca, Catamarca, Argentina",
+          "count":94,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":80},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Desde Casa",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Munro, Buenos Aires, Argentina",
+          "count":91,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":82},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Beca/PrÃ¡cticas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Beca/PrÃ¡cticas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"San Martín, Buenos Aires, Argentina",
+          "count":91,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":85},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":2}]},
+        {
+          "field":"location2",
+          "value":"San Isidro, Buenos Aires, Argentina",
+          "count":89,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":78},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":5},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Belgrano - Buenos Aires, Argentina",
+          "count":81,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":69},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":5},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"La Plata, Buenos Aires, Argentina",
+          "count":71,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":50},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":8},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":5},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Retiro - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":70,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":70}]},
+        {
+          "field":"location2",
+          "value":"",
+          "count":66,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":45},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Desde Casa",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal, Desde Casa",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Desde Casa",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Temporal, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Avellaneda, Buenos Aires, Argentina",
+          "count":65,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":58},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Campaña, Buenos Aires, Argentina",
+          "count":63,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":60},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Vicente López, Buenos Aires, Argentina",
+          "count":63,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":48},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":5},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"santa",
+          "count":59,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":65},
+            {
+              "field":"jobtype",
+              "value":"temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"por",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Mendoza, Argentina",
+          "count":57,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":46},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Núñez - Buenos Aires, Argentina",
+          "count":57,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":55},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"de",
+          "count":57,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":339},
+            {
+              "field":"jobtype",
+              "value":"por",
+              "count":5},
+            {
+              "field":"jobtype",
+              "value":"temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"desde",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"norte",
+          "count":55,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":59}]},
+        {
+          "field":"location2",
+          "value":"pilar",
+          "count":54,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":52},
+            {
+              "field":"jobtype",
+              "value":"por",
+              "count":2}]},
+        {
+          "field":"location2",
+          "value":"Tigre, Buenos Aires, Argentina",
+          "count":52,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":35},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":7},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Beca/PrÃ¡cticas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Beca/PrÃ¡cticas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Comunidad Cristiana Cap.Fed. - 1440, Buenos Aires, Argentina",
+          "count":51,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":38},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":6},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":3}]},
+        {
+          "field":"location2",
+          "value":"villa",
+          "count":50,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":48},
+            {
+              "field":"jobtype",
+              "value":"por",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Olivos, Buenos Aires, Argentina",
+          "count":46,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":39},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Puerto Madero - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":46,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":42},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"San Justo, Buenos Aires, Argentina",
+          "count":45,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":41},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Pacheco, Merlo, Buenos Aires, Argentina",
+          "count":43,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":40},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Quilmes, Buenos Aires, Argentina",
+          "count":42,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":34},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Salta, Argentina",
+          "count":42,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":33},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"San Telmo - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":42,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":41},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Coghlan - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":41,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":41}]},
+        {
+          "field":"location2",
+          "value":"Lanús, Buenos Aires, Argentina",
+          "count":41,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":36},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Ramos Mejía, Buenos Aires, Argentina",
+          "count":41,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":29},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":6},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Don Torcuato, Buenos Aires, Argentina",
+          "count":40,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":40}]},
+        {
+          "field":"location2",
+          "value":"Villa Urquiza - Buenos Aires, Argentina",
+          "count":39,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":27},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":6},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":5},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"palermo",
+          "count":39,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":41}]},
+        {
+          "field":"location2",
+          "value":"Iglesia Evangelica Gran Rey - Lavalle 930, San Nicolás, Buenos Aires, Argentina",
+          "count":38,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":34},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Escobar, Buenos Aires, Argentina",
+          "count":37,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":35},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Garin, Buenos Aires, Argentina",
+          "count":37,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":37}]},
+        {
+          "field":"location2",
+          "value":"San Fernando, Buenos Aires, Argentina",
+          "count":36,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":25},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"valle",
+          "count":36,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":35},
+            {
+              "field":"jobtype",
+              "value":"desde",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Colonia San Miguel, Buenos Aires, Argentina",
+          "count":35,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":27},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Morón, Buenos Aires, Argentina",
+          "count":35,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":27},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Tortuguitas, Buenos Aires, Argentina",
+          "count":35,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":34},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"martínez",
+          "count":34,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":36}]},
+        {
+          "field":"location2",
+          "value":"Saavedra - Buenos Aires, Argentina",
+          "count":33,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":32},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"plata",
+          "count":33,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":35}]},
+        {
+          "field":"location2",
+          "value":"Recoleta - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":32,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":21},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":5},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Moreno, Buenos Aires, Argentina",
+          "count":31,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":18},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":5},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Neuquén, Argentina",
+          "count":31,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":25},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Desde Casa",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"San Miguel de Tucumán, Tucumán, Argentina",
+          "count":31,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":23},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Zarate, Buenos Aires, Argentina",
+          "count":30,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":29},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"retiro",
+          "count":29,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":29}]},
+        {
+          "field":"location2",
+          "value":"vicente",
+          "count":29,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":28},
+            {
+              "field":"jobtype",
+              "value":"por",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Caballito - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":28,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":24},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Lomas de Zamora, Buenos Aires, Argentina",
+          "count":28,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":10},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":8},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"pres",
+          "count":28,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":28}]},
+        {
+          "field":"location2",
+          "value":"Benavídez, Buenos Aires, Argentina",
+          "count":27,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":22},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":5}]},
+        {
+          "field":"location2",
+          "value":"Ciudadela, Buenos Aires, Argentina",
+          "count":27,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":27}]},
+        {
+          "field":"location2",
+          "value":"Lomas del Mirador, Buenos Aires, Argentina",
+          "count":27,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":27}]},
+        {
+          "field":"location2",
+          "value":"Perito Moreno, Santa Cruz, Argentina",
+          "count":27,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":27}]},
+        {
+          "field":"location2",
+          "value":"munro",
+          "count":27,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":26},
+            {
+              "field":"jobtype",
+              "value":"por",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Ituzaingó, Buenos Aires, Argentina",
+          "count":26,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":24},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Centro, Cuauhtémoc, 06000 Ciudad de México, D.F., México",
+          "count":25,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":25}]},
+        {
+          "field":"location2",
+          "value":"mendoza",
+          "count":24,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":25}]},
+        {
+          "field":"location2",
+          "value":"Florencio Varela, Buenos Aires, Argentina",
+          "count":22,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":15},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":5},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Posadas, Misiones, Argentina",
+          "count":22,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":19},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Villa Martelli, Buenos Aires, Argentina",
+          "count":22,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":21},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"cristiana",
+          "count":22,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":22}]},
+        {
+          "field":"location2",
+          "value":"saavedra",
+          "count":22,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":22}]},
+        {
+          "field":"location2",
+          "value":"Buenos Aires Oeste, Metan, Salta, Argentina",
+          "count":21,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":17},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Caseros, Buenos Aires, Argentina",
+          "count":21,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":19},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":2}]},
+        {
+          "field":"location2",
+          "value":"Berazategui, Buenos Aires, Argentina",
+          "count":20,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":17},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Burzaco, Buenos Aires, Argentina",
+          "count":20,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":20}]},
+        {
+          "field":"location2",
+          "value":"Chacarita - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":20,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":19},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Hurlingham, Buenos Aires, Argentina",
+          "count":20,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":11},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":4},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Liniers - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":20,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":8},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":7},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Mar del Plata, Buenos Aires, Argentina",
+          "count":20,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":13},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":3},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Confitería del Molino, Capital Federal, Argentina - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":19,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":16},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":2},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo, Beca/PrÃ¡cticas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"El Talar, Buenos Aires, Argentina",
+          "count":19,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":18},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Villa Mercedes, San Luis, Argentina",
+          "count":19,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":16},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Temporal",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"escobar",
+          "count":19,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":20}]},
+        {
+          "field":"location2",
+          "value":"quilmes",
+          "count":19,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":19}]},
+        {
+          "field":"location2",
+          "value":"Flores - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":18,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":15},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas, Temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"General Pacheco, Buenos Aires, Argentina",
+          "count":18,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":17},
+            {
+              "field":"jobtype",
+              "value":"Tiempo Completo, Medio Tiempo",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"San Luis, Argentina",
+          "count":18,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":16},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1},
+            {
+              "field":"jobtype",
+              "value":"Por Horas",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"campaña",
+          "count":18,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":18}]},
+        {
+          "field":"location2",
+          "value":"pacheco",
+          "count":18,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"tiempo",
+              "count":18},
+            {
+              "field":"jobtype",
+              "value":"temporal",
+              "count":1}]},
+        {
+          "field":"location2",
+          "value":"Córdoba, Andalucía, España",
+          "count":17,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":17}]},
+        {
+          "field":"location2",
+          "value":"Parque Patricios - Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+          "count":17,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":15},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":2}]},
+        {
+          "field":"location2",
+          "value":"Ezeiza, Buenos Aires, Argentina",
+          "count":16,
+          "pivot":[{
+              "field":"jobtype",
+              "value":"Tiempo Completo",
+              "count":15},
+            {
+              "field":"jobtype",
+              "value":"Medio Tiempo",
+              "count":1}]}]}}}

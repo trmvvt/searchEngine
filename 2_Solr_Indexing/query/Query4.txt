@@ -1,0 +1,4152 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":25566,
+    "params":{
+      "facet":"true",
+      "fl":"title,jobtype,id",
+      "sort":"noOfDays asc",
+      "indent":"true",
+      "q":"isSA:true",
+      "group.field":"jobtype",
+      "group":"true",
+      "wt":"json",
+      "facet.pivot":"jobtype,title"}},
+  "grouped":{
+    "jobtype":{
+      "matches":11591,
+      "groups":[{
+          "groupValue":"tiempo",
+          "doclist":{"numFound":2808,"start":0,"docs":[
+              {
+                "id":"1201",
+                "title":"Operador CNC",
+                "jobtype":"Tiempo Completo"}]
+          }},
+        {
+          "groupValue":"Tiempo Completo",
+          "doclist":{"numFound":7598,"start":0,"docs":[
+              {
+                "id":"10190",
+                "title":"Maquetador",
+                "jobtype":"Tiempo Completo"}]
+          }},
+        {
+          "groupValue":"Medio Tiempo",
+          "doclist":{"numFound":389,"start":0,"docs":[
+              {
+                "id":"10335",
+                "title":"Estudiante de Contador",
+                "jobtype":"Medio Tiempo"}]
+          }},
+        {
+          "groupValue":"Tiempo Completo, Temporal",
+          "doclist":{"numFound":42,"start":0,"docs":[
+              {
+                "id":"3223",
+                "title":"Q-Cartero / Distribuidor de correspondencia",
+                "jobtype":"Tiempo Completo, Temporal"}]
+          }},
+        {
+          "groupValue":"Medio Tiempo, Por Horas",
+          "doclist":{"numFound":53,"start":0,"docs":[
+              {
+                "id":"3557",
+                "title":"Repartidor con Moto- Puerto Madero Turno Noche",
+                "jobtype":"Medio Tiempo, Por Horas"}]
+          }},
+        {
+          "groupValue":"Tiempo Completo, Medio Tiempo",
+          "doclist":{"numFound":227,"start":0,"docs":[
+              {
+                "id":"6393",
+                "title":"Depiladora",
+                "jobtype":"Tiempo Completo, Medio Tiempo"}]
+          }},
+        {
+          "groupValue":"Medio Tiempo, Temporal",
+          "doclist":{"numFound":12,"start":0,"docs":[
+              {
+                "id":"6400",
+                "title":"Promotoras Mendoza",
+                "jobtype":"Medio Tiempo, Temporal"}]
+          }},
+        {
+          "groupValue":"Tiempo Completo, Por Horas",
+          "doclist":{"numFound":38,"start":0,"docs":[
+              {
+                "id":"6462",
+                "title":"RH VISION busca Analista Jr para CÃ³rdoba Capital",
+                "jobtype":"Tiempo Completo, Por Horas"}]
+          }},
+        {
+          "groupValue":"Temporal",
+          "doclist":{"numFound":49,"start":0,"docs":[
+              {
+                "id":"6459",
+                "title":"PeÃ³n - Jardinero",
+                "jobtype":"Temporal"}]
+          }},
+        {
+          "groupValue":"Por Horas",
+          "doclist":{"numFound":145,"start":0,"docs":[
+              {
+                "id":"6485",
+                "title":"Psicomotrisista",
+                "jobtype":"Por Horas"}]
+          }}]}},
+  "facet_counts":{
+    "facet_queries":{},
+    "facet_fields":{},
+    "facet_dates":{},
+    "facet_ranges":{},
+    "facet_intervals":{},
+    "facet_pivot":{
+      "jobtype,title":[{
+          "field":"jobtype",
+          "value":"Tiempo Completo",
+          "count":7598,
+          "pivot":[{
+              "field":"title",
+              "value":"zona",
+              "count":43},
+            {
+              "field":"title",
+              "value":"y",
+              "count":41},
+            {
+              "field":"title",
+              "value":"tã",
+              "count":39},
+            {
+              "field":"title",
+              "value":"ref",
+              "count":32},
+            {
+              "field":"title",
+              "value":"vendedor",
+              "count":27},
+            {
+              "field":"title",
+              "value":"sr",
+              "count":23},
+            {
+              "field":"title",
+              "value":"Analista Contable",
+              "count":20},
+            {
+              "field":"title",
+              "value":"tecnico",
+              "count":18},
+            {
+              "field":"title",
+              "value":"ssr",
+              "count":15},
+            {
+              "field":"title",
+              "value":"Analista Funcional",
+              "count":14},
+            {
+              "field":"title",
+              "value":"Programadores PHP / MySQL",
+              "count":12},
+            {
+              "field":"title",
+              "value":"Recepcionista",
+              "count":11},
+            {
+              "field":"title",
+              "value":"de",
+              "count":11},
+            {
+              "field":"title",
+              "value":"Tecnico Electromecanico",
+              "count":9},
+            {
+              "field":"title",
+              "value":"para",
+              "count":9},
+            {
+              "field":"title",
+              "value":"web",
+              "count":9},
+            {
+              "field":"title",
+              "value":"Administrativa",
+              "count":8},
+            {
+              "field":"title",
+              "value":"Analista de Testing Funcional/TÃ©cnico Sr.",
+              "count":8},
+            {
+              "field":"title",
+              "value":"n",
+              "count":8},
+            {
+              "field":"title",
+              "value":"santa",
+              "count":8},
+            {
+              "field":"title",
+              "value":"Administrativo",
+              "count":7},
+            {
+              "field":"title",
+              "value":"Ayudante de Cocina",
+              "count":7},
+            {
+              "field":"title",
+              "value":"Ingeniero Automatizacion PLC SCADA",
+              "count":7},
+            {
+              "field":"title",
+              "value":"Vendedores",
+              "count":7},
+            {
+              "field":"title",
+              "value":"contable",
+              "count":7},
+            {
+              "field":"title",
+              "value":"operarios",
+              "count":7},
+            {
+              "field":"title",
+              "value":"sql",
+              "count":7},
+            {
+              "field":"title",
+              "value":"vendedores",
+              "count":7},
+            {
+              "field":"title",
+              "value":"Cocinero",
+              "count":6},
+            {
+              "field":"title",
+              "value":"Ref: COBOL - Analistas Programadores COBOL CICS - Mainframe",
+              "count":6},
+            {
+              "field":"title",
+              "value":"Vendedora",
+              "count":6},
+            {
+              "field":"title",
+              "value":"jr",
+              "count":6},
+            {
+              "field":"title",
+              "value":"junior",
+              "count":6},
+            {
+              "field":"title",
+              "value":"supervisor",
+              "count":6},
+            {
+              "field":"title",
+              "value":"testing",
+              "count":6},
+            {
+              "field":"title",
+              "value":"ventas",
+              "count":6},
+            {
+              "field":"title",
+              "value":"* Developers JAVA/J2EE * STRUTS / SPRING / Hibernate",
+              "count":5},
+            {
+              "field":"title",
+              "value":":: Programadores Cobol Mainframe ::",
+              "count":5},
+            {
+              "field":"title",
+              "value":"Administrativo/a",
+              "count":5},
+            {
+              "field":"title",
+              "value":"Analista de Negocios",
+              "count":5},
+            {
+              "field":"title",
+              "value":"Asesores / Vendedores",
+              "count":5},
+            {
+              "field":"title",
+              "value":"Camarera",
+              "count":5},
+            {
+              "field":"title",
+              "value":"Comprador",
+              "count":5},
+            {
+              "field":"title",
+              "value":"Jefe de Obra",
+              "count":5},
+            {
+              "field":"title",
+              "value":"Ref. .NET - Desarrolladores Sr-Ssr .NET/C#",
+              "count":5},
+            {
+              "field":"title",
+              "value":"oficial",
+              "count":5},
+            {
+              "field":"title",
+              "value":"personal",
+              "count":5},
+            {
+              "field":"title",
+              "value":"seguridad",
+              "count":5},
+            {
+              "field":"title",
+              "value":"tornero",
+              "count":5},
+            {
+              "field":"title",
+              "value":"urgente",
+              "count":5},
+            {
+              "field":"title",
+              "value":"z",
+              "count":5},
+            {
+              "field":"title",
+              "value":"Administrador Linux",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Administrativa Contable",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Analista Funcional Ssr.",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Analista Programador Java Ssr",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Asistente de Compras",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Buscamos Talentos... Te Buscamos a vos...",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Consultores ETL Sr./SSr.( zona Belgrano-NuÃ±ez-Coghlan-Microcentro)",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Desarrollador Sharepoint",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Desarrolladores Lenguaje C",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Empleada Administrativa",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Encargado",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Jefe de Oficina TÃ©cnica",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Jefe de ProducciÃ³n",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Liquidador de Sueldos",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Liquidador de Sueldos y Jornales",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Manicura - Depiladora",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Operario",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Operario de Limpieza",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Operarios",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Personal de Limpieza",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Programador PHP",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Ref. PHP - Desarrolladores PHP / MySQL",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Soporte TÃ©cnico",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Supervisora Supervisor de cadena de confiterias, gastronomÃ­a , hosteleria.",
+              "count":4},
+            {
+              "field":"title",
+              "value":"TALENTOS Web Developer .NET Sr. (Zona Belgrano) URGENTE!!!",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Tornero",
+              "count":4},
+            {
+              "field":"title",
+              "value":"TÃ©cnico ElectromecÃ¡nico",
+              "count":4},
+            {
+              "field":"title",
+              "value":"TÃ©cnico en RefrigeraciÃ³n",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Vendedor TÃ©cnico",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Vigiladores",
+              "count":4},
+            {
+              "field":"title",
+              "value":"operario",
+              "count":4},
+            {
+              "field":"title",
+              "value":"salon",
+              "count":4},
+            {
+              "field":"title",
+              "value":"senior",
+              "count":4},
+            {
+              "field":"title",
+              "value":"sucursal",
+              "count":4},
+            {
+              "field":"title",
+              "value":"sueldos",
+              "count":4},
+            {
+              "field":"title",
+              "value":"vendedoras",
+              "count":4},
+            {
+              "field":"title",
+              "value":"venta",
+              "count":4},
+            {
+              "field":"title",
+              "value":"villa",
+              "count":4},
+            {
+              "field":"title",
+              "value":"* Analista de Testing Funcional/TÃ©cnico Sr. *",
+              "count":3},
+            {
+              "field":"title",
+              "value":"* Developers JAVA/J2EE *",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Adicionista",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Administrador Base de Datos ORACLE SSr.(Martinez)",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Administrativa contable",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Administrativo Contable",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Administrativo de logÃ­stica",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Administrativo/a Contable",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Analista Contable Jr",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Analista Contable Sr.",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Analista Funcional (exp en Tarjetas de Credito/Banking)",
+              "count":3}]},
+        {
+          "field":"jobtype",
+          "value":"tiempo",
+          "count":2808,
+          "pivot":[{
+              "field":"title",
+              "value":"zona",
+              "count":157},
+            {
+              "field":"title",
+              "value":"ssr",
+              "count":156},
+            {
+              "field":"title",
+              "value":"tã",
+              "count":155},
+            {
+              "field":"title",
+              "value":"y",
+              "count":139},
+            {
+              "field":"title",
+              "value":"ref",
+              "count":113},
+            {
+              "field":"title",
+              "value":"sr",
+              "count":104},
+            {
+              "field":"title",
+              "value":"ventas",
+              "count":54},
+            {
+              "field":"title",
+              "value":"tecnico",
+              "count":53},
+            {
+              "field":"title",
+              "value":"senior",
+              "count":39},
+            {
+              "field":"title",
+              "value":"programador",
+              "count":38},
+            {
+              "field":"title",
+              "value":"vendedor",
+              "count":38},
+            {
+              "field":"title",
+              "value":"supervisor",
+              "count":37},
+            {
+              "field":"title",
+              "value":"para",
+              "count":36},
+            {
+              "field":"title",
+              "value":"de",
+              "count":29},
+            {
+              "field":"title",
+              "value":"vendedores",
+              "count":29},
+            {
+              "field":"title",
+              "value":"web",
+              "count":29},
+            {
+              "field":"title",
+              "value":"turno",
+              "count":26},
+            {
+              "field":"title",
+              "value":"sql",
+              "count":25},
+            {
+              "field":"title",
+              "value":"java",
+              "count":20},
+            {
+              "field":"title",
+              "value":"n",
+              "count":19},
+            {
+              "field":"title",
+              "value":"programadores",
+              "count":17},
+            {
+              "field":"title",
+              "value":"sap",
+              "count":17},
+            {
+              "field":"title",
+              "value":"tecnicos",
+              "count":17},
+            {
+              "field":"title",
+              "value":"producciã",
+              "count":16},
+            {
+              "field":"title",
+              "value":"sistemas",
+              "count":16},
+            {
+              "field":"title",
+              "value":"soporte",
+              "count":16},
+            {
+              "field":"title",
+              "value":"tester",
+              "count":16},
+            {
+              "field":"title",
+              "value":"ym",
+              "count":16},
+            {
+              "field":"title",
+              "value":"o",
+              "count":15},
+            {
+              "field":"title",
+              "value":"contable",
+              "count":14},
+            {
+              "field":"title",
+              "value":"operario",
+              "count":14},
+            {
+              "field":"title",
+              "value":"urgente",
+              "count":14},
+            {
+              "field":"title",
+              "value":"ã",
+              "count":14},
+            {
+              "field":"title",
+              "value":"responsable",
+              "count":13},
+            {
+              "field":"title",
+              "value":"seguridad",
+              "count":13},
+            {
+              "field":"title",
+              "value":"venta",
+              "count":13},
+            {
+              "field":"title",
+              "value":"funcional",
+              "count":12},
+            {
+              "field":"title",
+              "value":"recepcionista",
+              "count":12},
+            {
+              "field":"title",
+              "value":"visual",
+              "count":12},
+            {
+              "field":"title",
+              "value":"jr",
+              "count":11},
+            {
+              "field":"title",
+              "value":"siebel",
+              "count":11},
+            {
+              "field":"title",
+              "value":"talentos",
+              "count":11},
+            {
+              "field":"title",
+              "value":"junior",
+              "count":10},
+            {
+              "field":"title",
+              "value":"nico",
+              "count":10},
+            {
+              "field":"title",
+              "value":"operador",
+              "count":10},
+            {
+              "field":"title",
+              "value":"personal",
+              "count":10},
+            {
+              "field":"title",
+              "value":"secretaria",
+              "count":10},
+            {
+              "field":"title",
+              "value":"sito",
+              "count":10},
+            {
+              "field":"title",
+              "value":"jefe",
+              "count":9},
+            {
+              "field":"title",
+              "value":"proyectos",
+              "count":9},
+            {
+              "field":"title",
+              "value":"restaurante",
+              "count":9},
+            {
+              "field":"title",
+              "value":"sueldos",
+              "count":9},
+            {
+              "field":"title",
+              "value":"telefã",
+              "count":9},
+            {
+              "field":"title",
+              "value":"cocinero",
+              "count":8},
+            {
+              "field":"title",
+              "value":"oficial",
+              "count":8},
+            {
+              "field":"title",
+              "value":"php",
+              "count":8},
+            {
+              "field":"title",
+              "value":"procesos",
+              "count":8},
+            {
+              "field":"title",
+              "value":"san",
+              "count":8},
+            {
+              "field":"title",
+              "value":"z",
+              "count":8},
+            {
+              "field":"title",
+              "value":"administrativa",
+              "count":7},
+            {
+              "field":"title",
+              "value":"ingeniero",
+              "count":7},
+            {
+              "field":"title",
+              "value":"net",
+              "count":7},
+            {
+              "field":"title",
+              "value":"recursos",
+              "count":7},
+            {
+              "field":"title",
+              "value":"software",
+              "count":7},
+            {
+              "field":"title",
+              "value":"textil",
+              "count":7},
+            {
+              "field":"title",
+              "value":"tica",
+              "count":7},
+            {
+              "field":"title",
+              "value":"turismo",
+              "count":7},
+            {
+              "field":"title",
+              "value":"vendedora",
+              "count":7},
+            {
+              "field":"title",
+              "value":"ejecutivo",
+              "count":6},
+            {
+              "field":"title",
+              "value":"empleado",
+              "count":6},
+            {
+              "field":"title",
+              "value":"encargado",
+              "count":6},
+            {
+              "field":"title",
+              "value":"local",
+              "count":6},
+            {
+              "field":"title",
+              "value":"operarios",
+              "count":6},
+            {
+              "field":"title",
+              "value":"promotores",
+              "count":6},
+            {
+              "field":"title",
+              "value":"rrhh",
+              "count":6},
+            {
+              "field":"title",
+              "value":"rubro",
+              "count":6},
+            {
+              "field":"title",
+              "value":"trainee",
+              "count":6},
+            {
+              "field":"title",
+              "value":"unix",
+              "count":6},
+            {
+              "field":"title",
+              "value":"utico",
+              "count":6},
+            {
+              "field":"title",
+              "value":"vendedoras",
+              "count":6},
+            {
+              "field":"title",
+              "value":"vicente",
+              "count":6},
+            {
+              "field":"title",
+              "value":"villa",
+              "count":6},
+            {
+              "field":"title",
+              "value":"obra",
+              "count":5},
+            {
+              "field":"title",
+              "value":"peã",
+              "count":5},
+            {
+              "field":"title",
+              "value":"planta",
+              "count":5},
+            {
+              "field":"title",
+              "value":"project",
+              "count":5},
+            {
+              "field":"title",
+              "value":"proveedores",
+              "count":5},
+            {
+              "field":"title",
+              "value":"rdoba",
+              "count":5},
+            {
+              "field":"title",
+              "value":"s",
+              "count":5},
+            {
+              "field":"title",
+              "value":"se",
+              "count":5},
+            {
+              "field":"title",
+              "value":"telecomunicaciones",
+              "count":5},
+            {
+              "field":"title",
+              "value":"telemarketer",
+              "count":5},
+            {
+              "field":"title",
+              "value":"temporal",
+              "count":5},
+            {
+              "field":"title",
+              "value":"time",
+              "count":5},
+            {
+              "field":"title",
+              "value":"tornero",
+              "count":5},
+            {
+              "field":"title",
+              "value":"trã",
+              "count":5},
+            {
+              "field":"title",
+              "value":"windows",
+              "count":5},
+            {
+              "field":"title",
+              "value":"â",
+              "count":5},
+            {
+              "field":"title",
+              "value":"bachero",
+              "count":4},
+            {
+              "field":"title",
+              "value":"cadete",
+              "count":4}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo",
+          "count":389,
+          "pivot":[{
+              "field":"title",
+              "value":"Directv - Ventas",
+              "count":5},
+            {
+              "field":"title",
+              "value":"Telemarketer",
+              "count":5},
+            {
+              "field":"title",
+              "value":"vendedores",
+              "count":5},
+            {
+              "field":"title",
+              "value":"Camarera",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Telemarketers",
+              "count":3},
+            {
+              "field":"title",
+              "value":"telemarketers",
+              "count":3},
+            {
+              "field":"title",
+              "value":"ventas",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Cajeras para Hipermercado - San Isidro",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Delivery",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Esteticista",
+              "count":2},
+            {
+              "field":"title",
+              "value":"se",
+              "count":2},
+            {
+              "field":"title",
+              "value":"telemarketer",
+              "count":2},
+            {
+              "field":"title",
+              "value":"telemerketers",
+              "count":2},
+            {
+              "field":"title",
+              "value":"vendedor",
+              "count":2},
+            {
+              "field":"title",
+              "value":"y",
+              "count":2},
+            {
+              "field":"title",
+              "value":"799 Auditor MÃ©dico - Importante Prepaga - SAN MARTIN",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ASESORA/ VENDEDORA para Centro de Estetica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ASESORES COMERCIALES / Telemerketers",
+              "count":1},
+            {
+              "field":"title",
+              "value":"AdministraciÃ³n de seguros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrador de Bases de Datos MS-SQL Server",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativa Contable Las higueras",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativa/o de Telecobranzas - Turno MaÃ±ana y Tarde",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativo Contable Jr-",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativos de cobranza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Agente Ventas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Agente de AtenciÃ³n al Cliente",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Agente de Contacto",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Cobol Sr, (HomologaciÃ³n)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Contable",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Funcional Cobol SR",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Programador .NET Ssr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Semi Senior de RRHH (AM)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Anfitriona // Hostess // Recepcionista para Restaurante",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Aprendices para AtenciÃ³n TelefÃ³nica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesor de Venta de Smartphones - Part-Time.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesor para cuentas de Seguros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesor/a Comercial",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesor/a Comercial (Villa Maria)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesor/a comercial con exp venta corporativa",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesores Comerciales",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesores comerciales para venta domiciliaria de productos TelefÃ³nica Argentina",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesores de Venta",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asistente Administrativo/a Part Time",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asistente Administrativo/a part time",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asistente BilingÃ¼e",
+              "count":1},
+            {
+              "field":"title",
+              "value":"AtenciÃ³n al Cliente",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Auxiliar Administrativa",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Auxiliar Administrativo",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Auxiliar de Cocina franquero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Auxiliar de Recursos Humanos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante Sushiman",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de Chef con experiencia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de Contador",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de cocina",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de cocina (masc). Zona Nueva CÃ³rdoba",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de cocina - Palermo - PART TIME",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de parrilla",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante decoraciÃ³n floral",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante para decoraciÃ³n floral",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Barman",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Bilingual Representatives for Collections 0-30",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Buscamos ASISTENTE DE CUENTAS PART TIME para incorporar a nuestro staff",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Busco bachero/a -empleado de limpieza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Busco empleado para limpieza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Busqueda de Licenciado/a en Servicio/Trabajo Social en Corrientes",
+              "count":1},
+            {
+              "field":"title",
+              "value":"C - Personal de Maestranza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"C - Telecobradores para recupero de mora tardia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"COLEGIALES. Nineras. 4 veces por semana CUÃDAME MUCHO. NiÃ±eras Profesionales",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cadete Part Time",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cadete contable",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeras (Rosario)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeras y Repositores",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajero o Repositor (Primer Empleo)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajero quincenal p/ Posadas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros - Repositores Capital Federal",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros Hombres",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros SÃ¡bados y Domingos (Primer Empleo)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros Zona La Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros y Repositores (Sexo masculino -Disp. 17/23 hs)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros y Repositores (Turno Tarde)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros y Repositores zona Quilmes",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros/Repositores/Cadetes",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros/as para Hipermercados",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Call Center - Ventas - Directv Argentina",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarera de 7 a 14hs",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarera delivery 6 hrs",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarera.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarera/o",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camareras y Camareros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarero Zona MartÃ­nez",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarero/a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camareros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"CampaÃ±a DTV Argentina TELEMARKETER",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Carga- Descarga (Santa Fe Capital)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cocinero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Comerciales Seguros (ACA)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Comis",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Contadora/dor semi senior La Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Coordinador de EnfermerÃ­a PediÃ¡trica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Corredor/a Capital y GBA",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Medio Tiempo",
+          "count":227,
+          "pivot":[{
+              "field":"title",
+              "value":"Asesores / Vendedores",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Ayudante de cocina",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Camarera",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Instaladores",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Programador Java Junior",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Vendedor de Salon",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Vendedores / as para Obra Social",
+              "count":2},
+            {
+              "field":"title",
+              "value":"programador",
+              "count":2},
+            {
+              "field":"title",
+              "value":"tecnico",
+              "count":2},
+            {
+              "field":"title",
+              "value":". NET Desarrolladores . Net Semi Senior",
+              "count":1},
+            {
+              "field":"title",
+              "value":". NET Desarrolladores . Net Senior",
+              "count":1},
+            {
+              "field":"title",
+              "value":"AcompaÃ±ante Anciano con cama - Capital",
+              "count":1},
+            {
+              "field":"title",
+              "value":"AdeSa asistente de salud",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Adicionista - Asist. de encargado",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Adicionista/Cajero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrar Moodle y DiseÃ±o Internet",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativa y Supervisora de Call Center",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativo/a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"AlbaÃ±iles (2), Maestro Mayor de Obras con Experiencia en ColocaciÃ³n de Puertas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Business Intelligence / Datawarehouse",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Funcional Jr,Ssr,Sr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Junior de Recursos Humanos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Programador .NET",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Programador C#",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Programador SharePoint",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista SEO",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista de Marketing",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista de OrganizaciÃ³n y Procesos S/Sr.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Android Developer Sr/SSr/Jr.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesor / Vendedor de salÃ³n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesor/a Comercial",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesor/a comercial",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesores de Ventas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asistente Administrativa con conocimientos de Kabala",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Auxiliar Administrativo de LogistÃ­ca",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de Cocina",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de Cocina.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de Servicio Turno noche por medio",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Barman-Bartender",
+              "count":1},
+            {
+              "field":"title",
+              "value":"BaÃ±eros para Villa Mercedes (San Luis).",
+              "count":1},
+            {
+              "field":"title",
+              "value":"CHOFER de REMIS ZonaTortuguitas-Pilar",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cadete Administrativo",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cafetero Fin de Semana",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros / Repositores para Mendoza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros polivalentes 9/23 hs",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros y Repositores",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajeros/Repositores (CBA)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarera / Camarero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarera, buena presencia (TURNO TARDE NOCHE)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarera/o",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camareras Urgente Resto-Pub sobre Av. del Libertador",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarero/a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camareros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Chef / Cocinero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Chofer Remis",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Chofer de REMIS Zona Olivos-Martinez",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cobrador",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cocinero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Consultor Jr.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Contador Junior",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Corredor Partido de la Costa",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Corredor de IluminaciÃ³n /// Operario en FÃ¡brica y Viajante",
+              "count":1},
+            {
+              "field":"title",
+              "value":"DBA Oracle Jr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"DBA Oracle SR.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"DBA Oracle SSR",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Depiladora",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrollador Android Jr./Ssr./Sr.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrollador C++, Visual C++",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrollador Flex",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrollador Java Ssr - Puerto Madero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrollador JavaScript",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrollador iOS Jr./Ssr./Sr.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrollador/a Web Senior para startup en crecimiento (Sueldo fijo + stock options)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrolladores C++",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrolladores Mobile (Android o Iphone) Jr/Ssr/Sr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrolladores PHP y Front End.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrolladores SharePoint",
+              "count":1},
+            {
+              "field":"title",
+              "value":"DiseÃ±ador Web",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Distribuidor Comercial",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Distribuidor Comercial URGENTE",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Docente de MÃºsica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Docentes",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ENCARGADA Resto bar san isidro",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ejecutivo de cuentas de publicidad",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ejecutivo de cuentas publicidad",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Emleado de limpieza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Empleada Administriativa",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Empleada At. al cliente/Planchadora",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Empleado Administrativo",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Empleados para Agencia de Loteria",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Encargado de FÃ¡brica de calzados Multinacional",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiante avanzado DE SISTEMAS",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiantes de Farmacia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"FETEADOR/A DE QUESOS - Repositor (Sta Fe Capital)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Farmaceuticos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"FonoaudiÃ³logas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Gerente Zonal de Ventas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Gerentes Comerciales Rosario",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Grupo Marquez incorpora TODOS LOS PUESTOS para sucursales Zona Sur",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Grupo Marquez incorpora Vendedores/as para sucursal en SuÃ¡rez.",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Por Horas",
+          "count":145,
+          "pivot":[{
+              "field":"title",
+              "value":"Delivery",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Profesor/a de InglÃ©s",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Profesor/a de PortuguÃ©s",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Profesor/a de ReparaciÃ³n de Celulares",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Profesor/a de ReparaciÃ³n de PC",
+              "count":3},
+            {
+              "field":"title",
+              "value":"para",
+              "count":3},
+            {
+              "field":"title",
+              "value":"Profesor/a de ComputaciÃ³n",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Profesor/a de Marketing",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Valet Parking extras",
+              "count":2},
+            {
+              "field":"title",
+              "value":"y",
+              "count":2},
+            {
+              "field":"title",
+              "value":"2 Pomotoras-CÃ³rdoba Capital",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativo en sector obras sociales para dictado clases nomenclador nacional",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Animadores/ras Ayudantes de AnimaciÃ³n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asistente para relevar datos de siniestros en GualeguaychÃº, prov. de Entre RÃ­os",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Auxiliar de Limpieza/ Bacha/Armado para Hotel - *Eventual* - CON EXPERIENCIA",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Bacheros extras",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Barman extra",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Bellboy Eventual",
+              "count":1},
+            {
+              "field":"title",
+              "value":"C - Bell Boy",
+              "count":1},
+            {
+              "field":"title",
+              "value":"C - Mucamas hotelerÃ­a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cadete para Restaurante - Tareas Generales/Multifuncion",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cadeteria",
+              "count":1},
+            {
+              "field":"title",
+              "value":"CadeterÃ­a judicial",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarero / a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarero/a Extra",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camareros extras",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camareros para Evento Mar del Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cocinera Profesional",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Delivery con moto para Restaurant-Vinoteca zona Pilar",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Docente AdministraciÃ³n Contable",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Docente DiseÃ±o GrÃ¡fico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Docente DiseÃ±o Multimedial",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Docente DiseÃ±o de PÃ¡ginas Web",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Docente FotogrÃ¡fia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Docente Operador Office",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Docente ReparaciÃ³n de PC",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Docente japonÃ©s",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Empleada de Limpieza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Enfermero/a y Auxiliares",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Especialista en RefrigeraciÃ³n y Aire Acondicionado",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiante de PsicologÃ­a o PsicopedagogÃ­a para TUTORIAS BILINGUES - Zona Norte - Part Ti",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiante de ciencias de la educaciÃ³n para TUTORÃAS BILINGÃES - Zona Norte - Part Time",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiante de letras - (Pilar - Escobar - Maschwitz) - Part Time",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Experto/a en Cocina Medio Oriente",
+              "count":1},
+            {
+              "field":"title",
+              "value":"FarmacÃ©utico/a para posiciÃ³n de Jefe/a de Control de Calidad Part Time - 4 hs. semanales",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Fonoaudiologa - Terapista Ocupacional",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Fonoaudiologa para domicilio",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Fonoaudiologa zona Oeste",
+              "count":1},
+            {
+              "field":"title",
+              "value":"FonoaudiÃ³logo/a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Guardarropista",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ingeniero y/o tecnico ElectromecÃ¡nico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Kinesiologos para rehabilitacion domiciliaria",
+              "count":1},
+            {
+              "field":"title",
+              "value":"KinesiÃ³logo/a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Lic. KinesiÃ³logo/a o Terapista FÃ­sico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Lic. en KinesiologÃ­a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Licenciada en Fonoaudiologia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"M- MÃ©dico/a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Masoterapia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Medicina, estudiantes universitarios, clases de BiologÃ­a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Medico clinico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Medico/a de Guardia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mozo/as para Eventos - Hotel 4* -",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mozos / Bacheros / Ayudantes de Cocina",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mucamas Eventuales - Hotel 4*",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Musicoterapeuta",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mystery Shopper CABA",
+              "count":1},
+            {
+              "field":"title",
+              "value":"MÃ©dico Laboral",
+              "count":1},
+            {
+              "field":"title",
+              "value":"MÃ©dico de Planta",
+              "count":1},
+            {
+              "field":"title",
+              "value":"MÃ©dico para consultorio de Medicina Laboral",
+              "count":1},
+            {
+              "field":"title",
+              "value":"MÃ©dicos Piso y U.T.I. ( Guardias de 12 y 24 Hs.)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operario gastronomico experto en Tacos al Pastor y comida mexicana",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operarios de Carga y descarga",
+              "count":1},
+            {
+              "field":"title",
+              "value":"PSICÃLOGO/A Free Lance",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Pasantia - Auxiliar de Control de Calidad",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Personal de Limpieza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Personal de limpieza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesionales de la salud para atenciÃ³n en consultorio",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor Estudiante de Ciencias Sociales",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de Ciencias - Part Time - Z. Norte",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de Computacion",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de EducaciÃ³n FÃ­sica.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de InglÃ©s- Zona Norte - Part Time",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de Marketing",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de MatemÃ¡tica, FÃ­sica, QuÃ­mica,Biologia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de Reparacion de Celulares",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de Reparacion de PC",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de gimnasio",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a InglÃ©s Nativo",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a Nivel Terciario en PsicologÃ­a - PsicopedagogÃ­a - DidÃ¡ctica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a Portugues",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a de Computacion",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a de Ingles",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a de Lengua y Literatura - Zona Norte - Part Time",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a de Portugues",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a de marketing",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesora de Ingles Lanus Este",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesores /as de InglÃ©s Zona Norte",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesores de InglÃ©s para clases in-company",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesores de MatemÃ¡tica, FÃ­sica, QuÃ­mica y BiologÃ­a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesores de espaÃ±ol para extranjeros",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo, Por Horas",
+          "count":53,
+          "pivot":[{
+              "field":"title",
+              "value":"TÃ©cnico en Higiene y Seguridad en el Trabajo",
+              "count":2},
+            {
+              "field":"title",
+              "value":"y",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Administrativa Zona Norte",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativo de LogÃ­stica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Animadores/ras Ayudantes/tas de Animacion",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de Cocina y Pasteleria",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de cocina/ cocinero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de sushiman",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante/a Junior para reparacion electronica MP3",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Consultor SAP FICA Sr/ssr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Coordinadora de Programa",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Delivery - Reparto a domicilio.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Delivery con moto o bicicleta (Part time)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Depiladora / Manicura / Estetica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Empleada Domestica por horas Zona Capital",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiante de FCEN - Part Time - Zona Norte",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiante de ingenierÃ­a - Zona Norte",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Franqueros - Vendedores de salon-",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Higiene y Seguridad - VACANTE",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Lic. o tÃ©cnico en Psicomotricidad",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Masajista part time para Spa en Hotel.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Moderador Avisos Clasificados",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operador de AtenciÃ³n al Cliente",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operadores Soporte tecnico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Personal domÃ©stico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de MatemÃ¡tica, FÃ­sica, QuÃ­mica (Zona Norte)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Repartidor Bicicleta - Delivery CAPITAL contrato tiempo parcial",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Repartidor con Moto- Puerto Madero Turno Noche",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Selectora Personal - Freelance",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Soporte TÃ©cnico Telefonico/ AtenciÃ³n al Cliente",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tec Concepcion del Uruguay ER",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tec Informatica Bahia Blanca",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tecnico EEG",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tecnico Goya Corrientes",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tecnico La Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tecnico La Rioja",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tecnico Paso d los Libres / Mercedes / Goya",
+              "count":1},
+            {
+              "field":"title",
+              "value":"TÃ©cnico en RefrigeraciÃ³n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Vendedor Telefonico ( Part Time/ T Tarde)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Vendedora ALTO AVELLANEDA",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Vendedores zona Vicente LÃ³pez y MorÃ³n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Z. Norte. Profesor/a matematica, fisica, quimica, biologia, Ingles",
+              "count":1},
+            {
+              "field":"title",
+              "value":"medico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"medicos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"mendoza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"nutricionista",
+              "count":1},
+            {
+              "field":"title",
+              "value":"personal",
+              "count":1},
+            {
+              "field":"title",
+              "value":"restaurantes",
+              "count":1},
+            {
+              "field":"title",
+              "value":"tã",
+              "count":1},
+            {
+              "field":"title",
+              "value":"zona",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Temporal",
+          "count":49,
+          "pivot":[{
+              "field":"title",
+              "value":"Guardavidas",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Analista de Liquidacion de Haberes",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesores Comerciales / Ventas Urgente!!!",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asistente Contable",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asistente de FacturaciÃ³n y Cobranzas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asistente de Recursos Humanos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarera para Hotel en Mar del Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarera/o full time ( 5 dias ) y part-time ( 2 dias finde semana )",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarero/a eventual de salon",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cardiologa Pediatrica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Choferes de autoelevadores",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Distribuidor de Correspondencia con experiencia!",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ejecutivo de Cuenta",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Empleado Administrativo de Ventas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Empleado administrativo (Moreno)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Enfermera",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Licenciado en Seguridad e Higiene",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Liquidador de Prestaciones MÃ©dicas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mecanico-Zona Pacheco",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Modelista FreeLance",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mozos para eventos (Villa Mercedes).",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mucama para Hotel en Mar del Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mucama/o",
+              "count":1},
+            {
+              "field":"title",
+              "value":"MÃ©dicos Matriculados (promociÃ³n)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operarios",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operarios de Bodega Valle de Uco",
+              "count":1},
+            {
+              "field":"title",
+              "value":"PeÃ³n - Jardinero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Preventistas para relevamiento de mercado",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotor/a de exhibicion",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotora Stand playa",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotoras",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotoras para free shop.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotores (hombres) para free shop.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Recepcionista para Hotel en Mar Del Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"SALTA- Cajero/a para Supermercado",
+              "count":1},
+            {
+              "field":"title",
+              "value":"SALTA- Personal para Supermercado",
+              "count":1},
+            {
+              "field":"title",
+              "value":"SALTA- Repositor/a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Se busca BARTENDER",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Segundo Jefe de cocina para salÃ³n de fiestas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Supervisor de ProducciÃ³n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"TUC - Clarkista para la localidad de Los Nogales",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Vendedor Mercadolibre - E-Comerce",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Vendedores de indumentaria para niÃ±os",
+              "count":1},
+            {
+              "field":"title",
+              "value":"XC Pintores industriales",
+              "count":1},
+            {
+              "field":"title",
+              "value":"maestranza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"operador",
+              "count":1},
+            {
+              "field":"title",
+              "value":"tã",
+              "count":1},
+            {
+              "field":"title",
+              "value":"y",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Medio Tiempo, Por Horas",
+          "count":42,
+          "pivot":[{
+              "field":"title",
+              "value":"Chofer para Remis en Villa Adelina / Carapachay Movicar",
+              "count":3},
+            {
+              "field":"title",
+              "value":"- Cuidador - Asistente .-",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Asesor de Ventas - Turismo",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudantes de cocina zona Liniers",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Barman, Bartender, Jefe de barra",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cadete repositor",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Consultores SAP PS",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cuidadores en salud",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrollador PHP",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ejecutivo de cuentas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Guardavidas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Importante empresa de salud",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Inspectores / inspectoras de Calidad",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Instructores/ Somelieres Enologia/",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Lic en RRHH Y psicologÃ­a (BAHIA BLANCA)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Maestra jardinera. Docente de nivel inicial. CuÃ­dame Mucho NiÃ±eras Profesionales",
+              "count":1},
+            {
+              "field":"title",
+              "value":"MÃ©dico para Guardia 12 hs. y 24 hs. / Medico Laboral",
+              "count":1},
+            {
+              "field":"title",
+              "value":"MÃ©dicos para Operativos de Medicina Laboral",
+              "count":1},
+            {
+              "field":"title",
+              "value":"NiÃ±era",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operario de maestranza / jardineria",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operarios con conocimiento en quemadores",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operarios de maestranza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Panadero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Personal DomÃ©stico y niÃ±era",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Personal con manejo de hidraulica, soldadura tic y mantenimiento en general",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Personal de mantenimiento correctivo y preventivo",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Personal domestico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Personal para limpieza zona Lanus",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor / a de EspaÃ±ol como Segunda Lengua",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de MusculaciÃ³n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesores/as de Computacion - zona Merlo",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesores/as de InglÃ©s",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Programador PHP SENIOR - Modalidad semipresencial freelance",
+              "count":1},
+            {
+              "field":"title",
+              "value":"REF. O - MÃ©dico Especialista en GastroenterologÃ­a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Se Necesita Instaladores de ALARMAS y CCTV (Con Movilidad)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Traductor InglÃ©s-EspaÃ±ol para subtittulado y doblaje",
+              "count":1},
+            {
+              "field":"title",
+              "value":"TÃ©cnico en Extracciones/Electrocardiogramas/EspirometrÃ­as",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Zapatero para Multinacional",
+              "count":1},
+            {
+              "field":"title",
+              "value":"presencia",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Temporal",
+          "count":42,
+          "pivot":[{
+              "field":"title",
+              "value":"Comprador Semi Sr.",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Administardores y Contadores- Mar del Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administradores y Contadores - ROSARIO",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativo Bancario Eventual Alta Gracia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativo de Facturacion",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativo de Ventas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Administrativos para ExpediciÃ³n/ DepÃ³stio TEMPORAL (Chascomus))",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista de Procesos y DocumentaciÃ³n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Auditor Financiero Ssr.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de cocina para eventos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"BÃºsqueda Recurso Hyperion SR",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cadete - Bell Boy",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camareros Bilingues",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Consultor SAP SD Semi Senior, Buenos Aires - 2 meses -",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Consultores BPC, BO y BW SR",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrolladores Ruby",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Empleado Administrativo/Contable",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Empleado Para Recepcion de Complejo Vacacional",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Maestro Mayor de Obra",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Medica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mucama",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Oferta laboral Punta del Este 2012-2013",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operario Produccion Chascomus",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operario TÃ©cnico MecÃ¡nico/ElectromecÃ¡nico Junior",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotor para importante Proyecto de empresa conocida e internacional",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Q-Cartero / Distribuidor de correspondencia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"RH MASTER Selecciona 8 Estudiantes de Contador o ReciÃ©n Egresados",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Recepcionista para Hostel en Mar del Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Recurso ABAP SR",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ref.: DBA / DBA SQL Server",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Repositor y Cajero- Ref 3197",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Responsable de AdministraciÃ³n y Finanzas (temporal 5 meses)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Soporte de Help Desk",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Supervisor para Importante Proyecto de Empresa Conocida e Internacional",
+              "count":1},
+            {
+              "field":"title",
+              "value":"TÃ©cnico MecÃ¡nico. Sector SÃ³lidos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"TÃ©cnico QuÃ­mico Senior y Junior.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Vendedoras Local de decoraciÃ³n Shopping de Martinez (Ref Martinez)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"meses",
+              "count":1},
+            {
+              "field":"title",
+              "value":"soldador",
+              "count":1},
+            {
+              "field":"title",
+              "value":"sr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"temporada",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"por",
+          "count":40,
+          "pivot":[{
+              "field":"title",
+              "value":"y",
+              "count":9},
+            {
+              "field":"title",
+              "value":"promotoras",
+              "count":5},
+            {
+              "field":"title",
+              "value":"tã",
+              "count":5},
+            {
+              "field":"title",
+              "value":"zona",
+              "count":4},
+            {
+              "field":"title",
+              "value":"para",
+              "count":3},
+            {
+              "field":"title",
+              "value":"residencia",
+              "count":3},
+            {
+              "field":"title",
+              "value":"soldador",
+              "count":3},
+            {
+              "field":"title",
+              "value":"uticos",
+              "count":3},
+            {
+              "field":"title",
+              "value":"matriceros",
+              "count":2},
+            {
+              "field":"title",
+              "value":"oficial",
+              "count":2},
+            {
+              "field":"title",
+              "value":"operarios",
+              "count":2},
+            {
+              "field":"title",
+              "value":"os",
+              "count":2},
+            {
+              "field":"title",
+              "value":"profesor",
+              "count":2},
+            {
+              "field":"title",
+              "value":"rcoles",
+              "count":2},
+            {
+              "field":"title",
+              "value":"reparacion",
+              "count":2},
+            {
+              "field":"title",
+              "value":"s",
+              "count":2},
+            {
+              "field":"title",
+              "value":"villa",
+              "count":2},
+            {
+              "field":"title",
+              "value":"bachero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"balancineros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"camarera",
+              "count":1},
+            {
+              "field":"title",
+              "value":"capacitadores",
+              "count":1},
+            {
+              "field":"title",
+              "value":"cocineros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"confeccionista",
+              "count":1},
+            {
+              "field":"title",
+              "value":"electricista",
+              "count":1},
+            {
+              "field":"title",
+              "value":"enfermero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"enfermeros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"finanzas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ingeniero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"junior",
+              "count":1},
+            {
+              "field":"title",
+              "value":"lactarios",
+              "count":1},
+            {
+              "field":"title",
+              "value":"lance",
+              "count":1},
+            {
+              "field":"title",
+              "value":"mucamas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"muebles",
+              "count":1},
+            {
+              "field":"title",
+              "value":"mã",
+              "count":1},
+            {
+              "field":"title",
+              "value":"o",
+              "count":1},
+            {
+              "field":"title",
+              "value":"pediatria",
+              "count":1},
+            {
+              "field":"title",
+              "value":"pega",
+              "count":1},
+            {
+              "field":"title",
+              "value":"persona",
+              "count":1},
+            {
+              "field":"title",
+              "value":"personal",
+              "count":1},
+            {
+              "field":"title",
+              "value":"peruano",
+              "count":1},
+            {
+              "field":"title",
+              "value":"peã",
+              "count":1},
+            {
+              "field":"title",
+              "value":"php",
+              "count":1},
+            {
+              "field":"title",
+              "value":"plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"profesionales",
+              "count":1},
+            {
+              "field":"title",
+              "value":"programadores",
+              "count":1},
+            {
+              "field":"title",
+              "value":"promociã",
+              "count":1},
+            {
+              "field":"title",
+              "value":"pãºblico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"quilmes",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ra",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ref",
+              "count":1},
+            {
+              "field":"title",
+              "value":"renderista",
+              "count":1},
+            {
+              "field":"title",
+              "value":"representante",
+              "count":1},
+            {
+              "field":"title",
+              "value":"salud",
+              "count":1},
+            {
+              "field":"title",
+              "value":"san",
+              "count":1},
+            {
+              "field":"title",
+              "value":"se",
+              "count":1},
+            {
+              "field":"title",
+              "value":"semana",
+              "count":1},
+            {
+              "field":"title",
+              "value":"semanas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"seminario",
+              "count":1},
+            {
+              "field":"title",
+              "value":"senior",
+              "count":1},
+            {
+              "field":"title",
+              "value":"sã",
+              "count":1},
+            {
+              "field":"title",
+              "value":"tec",
+              "count":1},
+            {
+              "field":"title",
+              "value":"tecnicos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"tornero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"tu",
+              "count":1},
+            {
+              "field":"title",
+              "value":"urgente",
+              "count":1},
+            {
+              "field":"title",
+              "value":"veces",
+              "count":1},
+            {
+              "field":"title",
+              "value":"veterinario",
+              "count":1},
+            {
+              "field":"title",
+              "value":"videos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"yoga",
+              "count":1},
+            {
+              "field":"title",
+              "value":"zna",
+              "count":1},
+            {
+              "field":"title",
+              "value":"zonas",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Por Horas",
+          "count":38,
+          "pivot":[{
+              "field":"title",
+              "value":"Persona para reparto de material publicitario",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Agente de ventas para Inmobiliaria",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Analista Contable Ssr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Areas Publicas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de cocina",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Calderista / Foguista",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camareras zona LINIERS",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cocinero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Consultores SAP para PROYECTOS DE IMPLEMENTACION",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Data Entry",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Dibujante TÃ©cnico Autocadista",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Enfermeros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Impresores FlexogrÃ¡ficos - Offset",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mozo y mozo de barra",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mucama",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operador Informatico y Soporte tecnico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operario Calificado MetalÃºrgico - Zona Hurlingham",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operario de Limpieza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operario para Carga y Descarga",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operarios",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operarios (varones) fabrica zona JosÃ© L. SuÃ¡rez",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Personal para Ingenieria",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor/a de ComputaciÃ³n 2012",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Programador DATASTAGE. SSr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Programador PHP",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Programador Visual Basic 6, PHP y MySql",
+              "count":1},
+            {
+              "field":"title",
+              "value":"REF: Functional Analyst Ssr./Sr.| Functional Analyst consolidados",
+              "count":1},
+            {
+              "field":"title",
+              "value":"REF: Mobile Developers JR/SSR/SR | Mobile Developers para proyectos con impacto global",
+              "count":1},
+            {
+              "field":"title",
+              "value":"RH VISION busca Analista Jr para CÃ³rdoba Capital",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ref. PHP - PHP Freelance",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Soldador MIG MAG - Hurlingham",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Soldador MIG MAG - TURNO NOCHE",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tecnica/o en Laboratorio",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Terapeuta Ocupacional (Ref: TOGM)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"TÃ©cnico ElectromecÃ¡nico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"online",
+              "count":1},
+            {
+              "field":"title",
+              "value":"tecnicos",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Por Horas, Temporal",
+          "count":14,
+          "pivot":[{
+              "field":"title",
+              "value":"Animadoras y ayudantes de animaciÃ³n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ayudante de salon / comis / fines de semana",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Barman/Barwoman con experiencia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Bartenders/Barman/Barwoman",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Comis Extra",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mystery Shopper en Comodoro Rivadavia, Provincia de Chubut.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesor de Gimnasia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Profesores de EspaÃ±ol para extranjeros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotora Jumbo Pilar",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotora via publica Bahia Blanca",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotora via publica Monte Grande",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotora via publica San Miguel",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tecnico Cordoba",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Volantera - Ayudante de Ventas",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"temporal",
+          "count":14,
+          "pivot":[{
+              "field":"title",
+              "value":"y",
+              "count":7},
+            {
+              "field":"title",
+              "value":"zona",
+              "count":7},
+            {
+              "field":"title",
+              "value":"para",
+              "count":4},
+            {
+              "field":"title",
+              "value":"de",
+              "count":2},
+            {
+              "field":"title",
+              "value":"eventual",
+              "count":2},
+            {
+              "field":"title",
+              "value":"promotoras",
+              "count":2},
+            {
+              "field":"title",
+              "value":"villa",
+              "count":2},
+            {
+              "field":"title",
+              "value":"camarero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"in",
+              "count":1},
+            {
+              "field":"title",
+              "value":"mes",
+              "count":1},
+            {
+              "field":"title",
+              "value":"n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"pediatria",
+              "count":1},
+            {
+              "field":"title",
+              "value":"por",
+              "count":1},
+            {
+              "field":"title",
+              "value":"profesionales",
+              "count":1},
+            {
+              "field":"title",
+              "value":"promotores",
+              "count":1},
+            {
+              "field":"title",
+              "value":"punta",
+              "count":1},
+            {
+              "field":"title",
+              "value":"quilmes",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ra",
+              "count":1},
+            {
+              "field":"title",
+              "value":"renderista",
+              "count":1},
+            {
+              "field":"title",
+              "value":"shopper",
+              "count":1},
+            {
+              "field":"title",
+              "value":"sr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ssr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"temporal",
+              "count":1},
+            {
+              "field":"title",
+              "value":"turno",
+              "count":1},
+            {
+              "field":"title",
+              "value":"unicenter",
+              "count":1},
+            {
+              "field":"title",
+              "value":"vendedoras",
+              "count":1},
+            {
+              "field":"title",
+              "value":"videos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"zapala",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ã",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Medio Tiempo, Por Horas, Temporal",
+          "count":13,
+          "pivot":[{
+              "field":"title",
+              "value":"ATENCION: Empleada Domestica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Cajera San Fernando",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Corredor/ Vendedor",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Enfermera Zona Sur",
+              "count":1},
+            {
+              "field":"title",
+              "value":"NiÃ±eras Zona Norte- Dulces Nanas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"NiÃ±eras en La Plata- Dulces Nanas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"NiÃ±eras para Nordelta y alrededores - Dulces Nanas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"NiÃ±eras para Pilar y alrededores - Dulces Nanas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"NiÃ±eras para Zona Oeste - Dulces Nanas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"NiÃ±eras para Zona Sur - Dulces Nanas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"NiÃ±eras para todas las Zonas de Capital Federal - Dulces Nanas",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Repositores San Fernando.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Techistas generales para Zona Oeste",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo, Desde Casa",
+          "count":12,
+          "pivot":[{
+              "field":"title",
+              "value":"Nutricionista",
+              "count":4},
+            {
+              "field":"title",
+              "value":"Representantes",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Comprador IncÃ³gnito",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Desarrollador .NET SSr- La Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operador/a para carga de datos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Programador web Symfony",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Responsable Comercial",
+              "count":1},
+            {
+              "field":"title",
+              "value":"selector",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo, Temporal",
+          "count":12,
+          "pivot":[{
+              "field":"title",
+              "value":"La Rioja: Mystery Shopper Bancarizado",
+              "count":1},
+            {
+              "field":"title",
+              "value":"PROMOTORES (Tucuman)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotora Expo",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotora TC",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotoras CÃ³rdoba",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotoras Mendoza",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Responsable control de calidad",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Se buscan Tecnicos instaladores de sistemas CCTV",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tecnico de laboratorio guardias",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tecnico en Hemoterapia",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Telemarketer",
+              "count":1},
+            {
+              "field":"title",
+              "value":"viedma",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo, Beca/PrÃ¡cticas",
+          "count":11,
+          "pivot":[{
+              "field":"title",
+              "value":"Becario Marketing",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Buscamos jÃ³venes emprendedores para el desarrollo del dpto de DiseÃ±o y venta online",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiante de HotelerÃ­a para pasantÃ­a rentada en recepciÃ³n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiante de Ingenieria - Munro - Pasantia Rentada",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiantes de IngenierÃ­a industrial o logÃ­stica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Medico Cirujano/ Flebologo",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Pasante de Administracion",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Pasante de Mesa de Ayuda (Help Desk)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Pasante de Sistemas (Ref: PSGM)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Pasantes Multinacional (Ref: PAGM)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Solutions Sales Trainee",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo, Por Horas, Temporal",
+          "count":11,
+          "pivot":[{
+              "field":"title",
+              "value":"Venderora medio turno de mostrador en confiterÃ­a , sandwicherÃ­a , gastronomÃ­a, panaderia",
+              "count":2},
+            {
+              "field":"title",
+              "value":"Agente de Ventas para Call Center",
+              "count":1},
+            {
+              "field":"title",
+              "value":"AnÃ¡lisis matemÃ¡tico / Ãlgebra para clases de apoyo a domicilio en CABA",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Contabilidad / EconomÃ­a (Micro y macro) / Para apoyo escolar a domicilio",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Lengua y Literatura para dar clases de apoyo escolar a domicilio en Capital Federal",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Maestras/os primaria",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotora Comercial",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Promotoras y Promotores",
+              "count":1},
+            {
+              "field":"title",
+              "value":"profesor",
+              "count":1},
+            {
+              "field":"title",
+              "value":"y",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Medio Tiempo, Temporal",
+          "count":10,
+          "pivot":[{
+              "field":"title",
+              "value":"Ayudante de Cocina",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Camarero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mozo / Camarero / Mozo de Barra",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Mozos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"REF: PM (FL) | Project Manager Freelance para proyectos IT",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Se buscan barman",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Sushiman p/reemplazo x 15 dias",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Vendedora Refuerzo para local de Ropa Infantil",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ref",
+              "count":1},
+            {
+              "field":"title",
+              "value":"vendedoras",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Beca/PrÃ¡cticas",
+          "count":7,
+          "pivot":[{
+              "field":"title",
+              "value":"Comis, runner para FIN DE SEMANA",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiante de Publicidad - Munro - Pasantia Rentada",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Peon de Cocina",
+              "count":1},
+            {
+              "field":"title",
+              "value":"programador",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ssr",
+              "count":1},
+            {
+              "field":"title",
+              "value":"tecnico",
+              "count":1},
+            {
+              "field":"title",
+              "value":"visual.net",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Medio Tiempo, Desde Casa",
+          "count":6,
+          "pivot":[{
+              "field":"title",
+              "value":"Consultor Financiero y Seguros",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Magento Developer - La Plata",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Programador PHP Senior",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Responsable Comercial - Rosario",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Vendedor intangibles para empresas zona norte",
+              "count":1},
+            {
+              "field":"title",
+              "value":"monotributista",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Medio Tiempo, Por Horas, Desde Casa",
+          "count":6,
+          "pivot":[{
+              "field":"title",
+              "value":"Desarrollador PHP MySQL - Freelance",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ejecutivas/os de Cuentas para adhesiÃ³n de establecimientos.",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Estudiantes avanzados de PortuguÃ©s",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Programador PHP Jr o SSr - Modalidad semipresencial freelance",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Programador PHP SSr o Sr con conocimiento de Symfony",
+              "count":1},
+            {
+              "field":"title",
+              "value":"programador",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Desde Casa",
+          "count":5,
+          "pivot":[{
+              "field":"title",
+              "value":"Desarrolador 3D -Senior",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ENCARGADO DE PLANTA - Rosario Ref: Enc.Planta",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Programador Freelance",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Talleres Textiles",
+              "count":1},
+            {
+              "field":"title",
+              "value":"comerciales",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Por Horas, Temporal",
+          "count":5,
+          "pivot":[{
+              "field":"title",
+              "value":"Administrativo (Ref: Adm. Avell)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Guardavidas eventual",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Operario Tareas Generales Lavadero Paternal (REF: Lav Pat)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Se solicita camarera",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Vigiladores",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Beca/PrÃ¡cticas",
+          "count":4,
+          "pivot":[{
+              "field":"title",
+              "value":"Estudiante ingenierÃ­a UTN Facultad Regional Buenos Aires para pasantÃ­a",
+              "count":1},
+            {
+              "field":"title",
+              "value":"MÃ©dicos para Fellow en Terapia Intensiva",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Pasantes IngenierÃ­a Ref: (PIGM)",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Pasantia ComunicaciÃ³n social / Periodismo",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Beca/PrÃ¡cticas, Desde Casa",
+          "count":4,
+          "pivot":[{
+              "field":"title",
+              "value":"Buscamos redactores periodisticos ad honorem para proyecto web",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Traductor idioma alemÃ¡n",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Traductor idioma francÃ©s",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Vendedores de publicidad Medio grafico",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Medio Tiempo, Beca/PrÃ¡cticas",
+          "count":4,
+          "pivot":[{
+              "field":"title",
+              "value":"Consultor",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Lavacopas, Bachero",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Recepcionista part-time zona G. Catan",
+              "count":1},
+            {
+              "field":"title",
+              "value":"java",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"desde",
+          "count":4,
+          "pivot":[{
+              "field":"title",
+              "value":"programadores",
+              "count":2},
+            {
+              "field":"title",
+              "value":"lance",
+              "count":1},
+            {
+              "field":"title",
+              "value":"php",
+              "count":1},
+            {
+              "field":"title",
+              "value":"programador",
+              "count":1},
+            {
+              "field":"title",
+              "value":"representante",
+              "count":1},
+            {
+              "field":"title",
+              "value":"s",
+              "count":1},
+            {
+              "field":"title",
+              "value":"se",
+              "count":1},
+            {
+              "field":"title",
+              "value":"stica",
+              "count":1},
+            {
+              "field":"title",
+              "value":"traductores",
+              "count":1},
+            {
+              "field":"title",
+              "value":"videos",
+              "count":1},
+            {
+              "field":"title",
+              "value":"zona",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Por Horas, Desde Casa",
+          "count":2,
+          "pivot":[{
+              "field":"title",
+              "value":"Agentes Inmobiliarios",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Free Lance",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Desde Casa",
+          "count":2,
+          "pivot":[{
+              "field":"title",
+              "value":"REF: Front End (SSR/SR) | Front end Developer para proyecto mCommerce",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Ref 07 Desarrollador Ssr/Sr Visual Fox:",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Medio Tiempo, Por Horas, Beca/PrÃ¡cticas",
+          "count":2,
+          "pivot":[{
+              "field":"title",
+              "value":"DiseÃ±ador/Maquetador Web",
+              "count":1},
+            {
+              "field":"title",
+              "value":"Tecnica/o en Laboratorio",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Por Horas, Desde Casa",
+          "count":2,
+          "pivot":[{
+              "field":"title",
+              "value":"Programador Senior ASP.net",
+              "count":1},
+            {
+              "field":"title",
+              "value":"diseã",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo, Por Horas, Beca/PrÃ¡cticas",
+          "count":1,
+          "pivot":[{
+              "field":"title",
+              "value":"Departamento de DermatoestÃ©tica",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo, Por Horas, Beca/PrÃ¡cticas, Desde Casa",
+          "count":1,
+          "pivot":[{
+              "field":"title",
+              "value":"Redactor Blog - Redes Sociales Contenido Web",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo, Por Horas, Desde Casa",
+          "count":1,
+          "pivot":[{
+              "field":"title",
+              "value":"Vendedor de servicios fumigacion Limpieza de tanques -finales de Obra",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo, Por Horas, Temporal, Beca/PrÃ¡cticas",
+          "count":1,
+          "pivot":[{
+              "field":"title",
+              "value":"Estudiantes Contador / Pasante",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Medio Tiempo, Por Horas, Temporal, Desde Casa",
+          "count":1,
+          "pivot":[{
+              "field":"title",
+              "value":"Docentes/ Estudiantes de MatemÃ¡tica, BiologÃ­a, QuimÃ­ca, FÃ­sica",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Por Horas, Beca/PrÃ¡cticas",
+          "count":1,
+          "pivot":[{
+              "field":"title",
+              "value":"Estudiante de Magisterio NIvel Primario y Secundario",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Por Horas, Beca/PrÃ¡cticas, Desde Casa",
+          "count":1,
+          "pivot":[{
+              "field":"title",
+              "value":"Ejecutivos de Cuentas - ventas de intangibles",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Por Horas, Temporal, Desde Casa",
+          "count":1,
+          "pivot":[{
+              "field":"title",
+              "value":"Data entry / IdentificaciÃ³n y procesamiento de imÃ¡genes",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"Tiempo Completo, Temporal, Desde Casa",
+          "count":1,
+          "pivot":[{
+              "field":"title",
+              "value":"Especialista en Marketing Digital",
+              "count":1}]},
+        {
+          "field":"jobtype",
+          "value":"prã",
+          "count":1,
+          "pivot":[{
+              "field":"title",
+              "value":"o",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ra",
+              "count":1},
+            {
+              "field":"title",
+              "value":"ref",
+              "count":1},
+            {
+              "field":"title",
+              "value":"scania",
+              "count":1},
+            {
+              "field":"title",
+              "value":"trainee",
+              "count":1},
+            {
+              "field":"title",
+              "value":"y",
+              "count":1}]}]}}}

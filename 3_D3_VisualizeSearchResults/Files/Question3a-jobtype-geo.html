@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+path {
+  stroke: black;
+  stroke-width: 0.25px;
+  fill: gray;
+}
+</style>
+<body onload="drawOnMap()">
+  Job Type:
+  <select id="companyList" >
+  <option value="Por" selected>Por Horas (Per Hour)</option>
+  <option value="Medio">Medio Tiempo (Part Time)</option>
+  <option value="Completo">Tiempo Completo (Full Time)</option>
+  <option value="Desde">Desde Casa (Work from Home)</option>
+</select>
+
+<!-- <script src="d3/d3.min.js"></script>
+<script src="d3/topojson.js"></script> -->
+<!-- <script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v0.min.js"></script> -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v0.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+
+
+var width = 960,
+    height = 500;
+// The values are proper for map display, need not change them.
+var projection = d3.geo.mercator()
+    .center([90,25])
+    .scale(150)
+    .rotate([70,0]);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var g = svg.append("g");
+
+var color = d3.scale.category10();
+//alert(companyList.options[0].text);
+ $.ajax({
+                   // url: 'http://localhost:8983/solr/select?q=*:*&rows=1000&fl=latitude,longitude,company,jobtype&wt=json',
+                   url:'http://localhost:8983/solr/select?q=jobtype:'+'*'+companyList.options[0].value+'*'+'&rows=12000&wt=json&indent=true',
+                    dataType: 'jsonp',
+                    jsonp: "json.wrf",
+                    success: function(jsonData){
+                        var text = '';
+                        console.log(jsonData);
+                      console.log(jsonData['response']['docs']);
+                      window.location2 = jsonData['response']['docs'];
+            //alert()
+            drawOnMap();
+                    },
+                    error:  function(XMLHttpRequest, textStatus, errorThrown) {
+                    var data = XMLHttpRequest.responseText;
+                    console.log(data);
+                    console.log(textStatus);
+                    console.log(errorThrown);
+                    },
+                    complete: function (xhr, status) {
+        var data = xhr.responseText;
+        console.log("complete function!");
+        console.log(data);
+  }});
+
+var alertChange = function() {
+
+    //get the data value and index from the event
+    var selectedValue = d3.event.target.value;
+    var selectedIndex = d3.event.target.selectedIndex;
+    
+    //if you need to access more complicated attributes 
+    //or data from the option element, you can use the index
+    //to select the individual element:
+    var selectedDOMElement = d3.event.target.children[selectedIndex];
+    var selection = d3.select(selectedDOMElement);
+    
+    //alert("The text from that option was: " + selection.text());
+    var comp = selection.text().split(" ");
+    compParam = selectedValue;
+    
+
+
+
+     $.ajax({
+                   // url: 'http://localhost:8983/solr/select?q=*:*&rows=1000&fl=latitude,longitude,company,jobtype&wt=json',
+                   url:'http://localhost:8983/solr/select?q=jobtype:'+'*'+compParam+'*'+'&rows=12000&wt=json&indent=true',
+                    dataType: 'jsonp',
+                    jsonp: "json.wrf",
+                    success: function(jsonData){
+                        var text = '';
+                        console.log(jsonData);
+                      console.log(jsonData['response']['docs']);
+                      window.location2 = jsonData['response']['docs'];
+            //alert()
+            drawOnMap();
+                    },
+                    error:  function(XMLHttpRequest, textStatus, errorThrown) {
+                    var data = XMLHttpRequest.responseText;
+                    console.log(data);
+                    console.log(textStatus);
+                    console.log(errorThrown);
+                    },
+                    complete: function (xhr, status) {
+        var data = xhr.responseText;
+        console.log("complete function!");
+        console.log(data);
+  }});
+}
+
+d3.select("#companyList").on("change", alertChange);
+
+
+function drawOnMap(){ 
+
+
+// load and display the World
+d3.json("map.json", function(error, topology) {
+
+    g.selectAll("path")
+      .data(topojson.object(topology, topology.objects.countries)
+          .geometries)
+    .enter()
+      .append("path")
+      .attr("d", path)
+
+      var circleEle = g.selectAll("circle")
+             .data(location2);
+
+             circleEle.exit().remove();
+
+             circleEle.enter()
+             .append("circle")
+             .attr("cx", function(d) {
+                     return projection([d.longitude, d.latitude])[0];
+             })
+             .attr("cy", function(d) {
+                     return projection([d.longitude, d.latitude])[1];
+             })
+             .style("stroke", "red")
+             .attr("r", 3)
+             .style("fill", "yellow");
+
+ //Legend
+var legend = svg.selectAll(".legend")
+    .data(color.domain())
+    .enter().append("g")
+    .attr("class", "legend")
+    .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+legend.append("rect")
+    .attr("x", width - 18)
+    .attr("width", 18)
+    .attr("height", 18)
+    .style("fill", color);
+
+legend.append("text")
+    .attr("x", width - 24)
+    .attr("y", 9)
+    .attr("dy", ".35em")
+    .style("text-anchor", "end")
+    .text(function(d) { return d; });
+
+    // zoom and pan
+var zoom = d3.behavior.zoom()
+    .on("zoom",function() {
+        g.attr("transform","translate("+ 
+            d3.event.translate.join(",")+")scale("+d3.event.scale+")");
+        g.selectAll("circle")
+            .attr("d", path.projection(projection));
+        g.selectAll("path")  
+            .attr("d", path.projection(projection)); 
+
+  });
+
+svg.call(zoom) ;
+
+});}
+
+</script>
+</body>
+</html>
